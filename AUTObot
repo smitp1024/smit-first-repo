@@ -1,0 +1,10 @@
+import pyautogui
+import time
+
+while True:
+    time.sleep(1)
+    pyautogui.scroll(100)
+    pyautogui.moveTo(1500,400)
+    time.sleep(1)
+    pyautogui.scroll(-100)
+    pyautogui.moveTo(1500,600)
